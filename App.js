@@ -28,43 +28,36 @@ const App = () => {
 
   //find the gift by checking which question options were selected:
   const getGiftSuggestion = () => {
+    const occasion = questions[0].options[answers[questions[0].id] - 1].text;
+    const gender = questions[1].options[answers[questions[1].id] - 1].text;
+    const ageRange = questions[2].options[answers[questions[2].id] - 1].text;
+
     const matchingGift = gifts.filter(
       (gift) =>
-        gift.occasion ===
-          questions[0].options[answers[questions[0].id] - 1].text &&
-        gift.gender ===
-          questions[1].options[answers[questions[1].id] - 1].text &&
-        gift.ageRange ===
-          questions[2].options[answers[questions[2].id] - 1].text
+        gift.occasion === occasion &&
+        gift.gender === gender &&
+        gift.ageRanges[ageRange]
     );
+
     if (matchingGift.length === 0) {
       return "No gift found";
     } else {
       return (
         <>
           {matchingGift.map((giftsObject) => (
-            <View style={styles.giftSuggestion} key={gifts.gift}>
-              {giftsObject.gift.map((gift) => (
-                <View
-                  style={styles.giftSuggestion}
-                  key={gifts.gift + " innerView"}
-                >
-                  <Text style={styles.resultText}>{gift.gift}</Text>
-                  {gift.gift.indexOf("Nothing") === -1 && (
+            <View
+              style={styles.giftSuggestion}
+              key={giftsObject.gift + ageRange}
+            >
+              {giftsObject.ageRanges[ageRange].map((gift) => (
+                <View style={styles.giftSuggestion} key={gift + ageRange}>
+                  <Text style={styles.giftSuggestionText}>{gift}</Text>
+                  {gift.indexOf("Nothing") === -1 && (
                     <Pressable
-                      key={gifts.gift + " searchButton"}
+                      key={gift + " searchButton"}
                       style={styles.searchButton}
                       onPress={() =>
-                        //inserting what the search query should be:
-                        openSearchResults(
-                          gift.gift,
-                          questions[0].options[answers[questions[0].id] - 1]
-                            .text,
-                          questions[1].options[answers[questions[1].id] - 1]
-                            .text,
-                          questions[2].options[answers[questions[2].id] - 1]
-                            .text
-                        )
+                        openSearchResults(gift, occasion, gender, ageRange)
                       }
                     >
                       <Text style={styles.searchButtonText}>Search</Text>
@@ -107,9 +100,9 @@ const App = () => {
                 key={option.id}
                 onPress={() => handleAnswer(currentQuestion.id, option.id)}
               >
+                <Text style={styles.icon}>{option.icon}</Text>
                 <Text style={styles.buttonText}>
                   {option.text} {"\n"}
-                  {option.icon}
                 </Text>
               </Pressable>
             ))}
@@ -120,10 +113,17 @@ const App = () => {
       {!currentQuestion && (
         <View style={styles.resultContainer}>
           <>
-            <ScrollView style={styles.scrollView}>
+            <ScrollView
+              style={styles.scrollView}
+              showsVerticalScrollIndicator={false}
+            >
               <View style={styles.resultContainer}>
                 <Text style={styles.resultText}>
-                  We recommend getting this as a gift:
+                  Here are some recommendations for a{" "}
+                  {questions[2].options[answers[questions[2].id] - 1].text} old{" "}
+                  {questions[1].options[answers[questions[1].id] - 1].text}, who
+                  is celebrating{" "}
+                  {questions[0].options[answers[questions[0].id] - 1].text}:
                 </Text>
                 {/* renders all gifts that are recommended according to the question answered: */}
                 {getGiftSuggestion()}

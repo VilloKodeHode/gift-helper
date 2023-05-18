@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
   },
   scrollView: {
     maxHeight: "100%",
+    maxWidth: "100%",
     marginVertical: 20,
   },
   buttonGrid: {
@@ -18,14 +19,15 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   button: {
+    position: "relative",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#60d9d6",
+    backgroundColor: "#de78c6",
     paddingHorizontal: 10,
     paddingVertical: 0,
     borderRadius: 10,
-    shadowColor: "#000",
+    shadowColor: "#de78c6",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.7,
     shadowRadius: 5,
@@ -36,12 +38,64 @@ export const styles = StyleSheet.create({
     margin: 5,
     textAlign: "center",
   },
+
+  buttonText: {
+    color: "white",
+    fontSize: 19,
+    height: "30%",
+    width: "100%",
+    textAlign: "center",
+    borderRadius: 10,
+    // borderStyle: "solid",
+    // borderColor: "white",
+    // borderWidth: 1,
+    backgroundColor: "rgba(0,0,0,0.4)",
+  },
+  icon: {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: [{ translateX: -25 }, { translateY: -40 }],
+    fontSize: 50,
+    textAlign: "center",
+  },
+  resetButtonText: {
+    color: "white",
+    fontSize: 30,
+    textAlign: "center",
+  },
+
+  questionText: {
+    fontSize: 25,
+    marginBottom: 20,
+    textAlign: "center",
+    color: "white",
+  },
+
+  titleText: {
+    fontSize: 30,
+    textAlign: "center",
+    color: "#de78c6",
+  },
+
+  //Result styling:
+  resultContainer: {
+    paddingVertical: 40,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  resultText: {
+    maxWidth: "90%",
+    fontSize: 18,
+    color: "white",
+    borderStyle: "solid",
+    textAlign: "center",
+  },
   resetButton: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#60d9d6",
-
     borderRadius: 10,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
@@ -52,6 +106,26 @@ export const styles = StyleSheet.create({
     height: 50,
     color: "white",
     margin: 5,
+    textAlign: "center",
+  },
+
+  //GiftBox styling:
+
+  giftSuggestion: {
+    fontSize: 30,
+    borderColor: "#61dedb",
+    borderWidth: 2,
+    borderRadius: 10,
+    padding: 10,
+    color: "#61dedb",
+    fontWeight: "bold",
+    margin: 20,
+    textAlign: "center",
+  },
+  giftSuggestionText: {
+    fontSize: 18,
+    color: "white",
+    borderStyle: "solid",
     textAlign: "center",
   },
   searchButton: {
@@ -72,56 +146,9 @@ export const styles = StyleSheet.create({
     marginVertical: 10,
     textAlign: "center",
   },
-  buttonText: {
-    color: "white",
-    fontSize: 19,
-    textAlign: "center",
-  },
-  resetButtonText: {
-    color: "white",
-    fontSize: 30,
-    textAlign: "center",
-  },
-
   searchButtonText: {
     color: "white",
     fontSize: 30,
-    textAlign: "center",
-  },
-
-  questionText: {
-    fontSize: 25,
-    marginBottom: 20,
-    textAlign: "center",
-    color: "white",
-  },
-
-  titleText: {
-    fontSize: 30,
-    textAlign: "center",
-    color: "#de78c6",
-  },
-
-  resultContainer: {
-    paddingVertical: 40,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  resultText: {
-    fontSize: 18,
-    color: "white",
-    borderStyle: "solid",
-    textAlign: "center",
-  },
-  giftSuggestion: {
-    fontSize: 30,
-    borderColor: "#61dedb",
-    borderWidth: 2,
-    borderRadius: 10,
-    padding: 10,
-    color: "#61dedb",
-    fontWeight: "bold",
-    margin: 20,
     textAlign: "center",
   },
 });
