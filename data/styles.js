@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
     width: 150,
     height: 100,
     color: "white",
-    margin: 5,
+    margin: 15,
     textAlign: "center",
   },
 
@@ -55,7 +55,8 @@ export const styles = StyleSheet.create({
     position: "absolute",
     top: "50%",
     left: "50%",
-    transform: [{ translateX: -25 }, { translateY: -40 }],
+    transform: [{ translateX: -100 }, { translateY: -80 }],
+    zIndex: 1,
     fontSize: 50,
     textAlign: "center",
   },

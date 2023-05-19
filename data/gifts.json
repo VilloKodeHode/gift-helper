@@ -1,0 +1,907 @@
+[
+  {
+    "occasion": "Birthday",
+    "gender": "Male",
+    "ageRanges": {
+      "Under 18": [
+        "Sports equipment",
+        "Game console",
+        "Gaming computer",
+        "Headphones",
+        "Flying drone"
+      ],
+      "18-24": [
+        "Wireless earbuds",
+        "Gaming keyboard",
+        "Smartwatch",
+        "Portable Bluetooth speaker",
+        "Coffee maker"
+      ],
+      "25-34": [
+        "Watch",
+        "Wallet",
+        "Grooming kit",
+        "Wireless earbuds",
+        "Smartphone"
+      ],
+      "35-44": [
+        "Smartwatch",
+        "Home brewing kit",
+        "Whiskey stones",
+        "Personalized leather wallet",
+        "Wireless charging station"
+      ],
+      "45-54": [
+        "Bluetooth speaker",
+        "Fitness tracker",
+        "Smartwatch",
+        "Premium whiskey",
+        "Virtual reality headset"
+      ],
+      "55-64": [
+        "Personalized whiskey glasses",
+        "Leather briefcase",
+        "Smartphone projector",
+        "Digital photo frame",
+        "High-end coffee maker"
+      ],
+      "65-74": [
+        "Gourmet coffee gift set",
+        "Leather briefcase",
+        "Wine tasting experience",
+        "Electric shaver",
+        "Bluetooth speaker"
+      ],
+      "75+": [
+        "Personalized golf club set",
+        "Classic wristwatch",
+        "Vintage whiskey set",
+        "Walking cane with built-in seat",
+        "Digital photo frame"
+      ]
+    }
+  },
+  {
+    "occasion": "Birthday",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": [
+        "Art supplies",
+        "Make up",
+        "Designer clothes",
+        "Jewelry",
+        "Smartphone"
+      ],
+      "18-24": [
+        "Smartphone case with pop socket",
+        "Wireless earbuds",
+        "E-reader",
+        "Fitness tracker",
+        "Personalized jewelry",
+        "Succulent or plant kit"
+      ],
+      "25-34": [
+        "Diamond earrings",
+        "Perfume",
+        "Handbag",
+        "Silk scarf",
+        "Personalized stationery"
+      ],
+      "35-44": [
+        "Silk scarf",
+        "Fitness Tracker",
+        "Professional Makeup Brush Set",
+        "Luxury Candle Set",
+        "Personalized Stationery Set"
+      ],
+      "45-54": [
+        "Personalized Photo Album",
+        "Luxury Robe",
+        "Scented Candles",
+        "E-reader",
+        "Artisanal Chocolates"
+      ],
+      "55-64": [
+        "E-reader",
+        "Personalized photo album",
+        "Gardening tools and supplies",
+        "Teapot and tea set",
+        "Smartwatch"
+      ],
+      "65-74": [
+        "Spa gift basket",
+        "Fashionable handbag",
+        "Customized jewelry",
+        "Elegant silk scarf",
+        "Electric wine opener"
+      ],
+      "75+": [
+        "Luxurious cashmere sweater",
+        "Tea sampler set",
+        "Handcrafted pottery set",
+        "Memory foam slippers",
+        "Digital e-reader"
+      ]
+    }
+  },
+
+  {
+    "occasion": "Anniversary",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": [
+        "Art Set",
+        "Personalized jewelry",
+        "Scented candles",
+        "Fashionable clothes",
+        "Perfume set"
+      ],
+      "18-24": [
+        "Smartphone Camera Lens Kit",
+        "Designer handbag",
+        "Fitness tracker",
+        "Spa day package",
+        "Makeup brush set"
+      ],
+      "25-34": [
+        "Jewelry",
+        "Luxury watch",
+        "Fitness equipment",
+        "Handmade pottery set",
+        "Travel bag"
+      ],
+      "35-44": [
+        "Leather Wallet",
+        "Designer shoes",
+        "Professional camera",
+        "Fitness membership",
+        "Personalized photo album"
+      ],
+      "45-54": [
+        "Diamond Stud Earrings",
+        "Luxury handbag",
+        "Designer sunglasses",
+        "Fine dining experience",
+        "Luxury bedding set"
+      ],
+      "55-64": [
+        "Luxury Spa Package",
+        "Luxury cruise",
+        "Fine jewelry",
+        "Luxury handbag",
+        "Gourmet food basket"
+      ],
+      "65-74": [
+        "Engraved jewelry",
+        "Weekend getaway package",
+        "Personalized photo frame",
+        "Gourmet chocolate set",
+        "Scented candle gift set"
+      ],
+      "75+": [
+        "Elegant pearl necklace",
+        "Wine tasting experience",
+        "Cozy cashmere blanket",
+        "Vintage tea set",
+        "Digital picture frame"
+      ]
+    }
+  },
+  {
+    "occasion": "Anniversary",
+    "gender": "Male",
+    "ageRanges": {
+      "Under 18": [
+        "Lego Set",
+        "Gaming console",
+        "Wireless headphones",
+        "Remote control car",
+        "Action camera"
+      ],
+      "18-24": [
+        "Headphones",
+        "Gaming computer",
+        "Smartwatch",
+        "Personalized photo frame",
+        "Bluetooth speaker"
+      ],
+      "25-34": [
+        "Watch",
+        "Barware set",
+        "Smart home device",
+        "Professional camera",
+        "Luxury pen set"
+      ],
+      "35-44": [
+        "Leather Briefcase",
+        "Smartwatch",
+        "Customized Cufflinks",
+        "Weekend Getaway Package",
+        "Leather Messenger Bag"
+      ],
+      "45-54": [
+        "Luxury Watch",
+        "Crystal Decanter Set",
+        "High-end Headphones",
+        "Premium Cigar Humidor",
+        "Wine Tasting Tour"
+      ],
+      "55-64": [
+        "Retirement Travel Package",
+        "Gold-Plated Pen Set",
+        "Vintage Record Player",
+        "Personalized Whiskey Decanter",
+        "Gourmet Cooking Class"
+      ],
+      "65-74": [
+        "Leather briefcase",
+        "Classic wristwatch",
+        "Gourmet steak gift set",
+        "Personalized whiskey decanter",
+        "Golf club set"
+      ],
+      "75+": [
+        "Customized pocket watch",
+        "Luxury shaving kit",
+        "Fine wine collection",
+        "Antique chess set",
+        "Vintage record player"
+      ]
+    }
+  },
+
+  {
+    "occasion": "Graduation",
+    "gender": "Male",
+    "ageRanges": {
+      "Under 18": [
+        "Electric scooter",
+        "Training equipment",
+        "Car downpayment",
+        "School supplies",
+        "Designer clothes"
+      ],
+      "18-24": [
+        "Smartwatch",
+        "Wireless headphones",
+        "Fitness tracker",
+        "Backpack",
+        "Portable speaker"
+      ],
+      "25-34": [
+        "Briefcase",
+        "Wireless earbuds",
+        "Smart home device",
+        "Messenger bag",
+        "Coffee maker"
+      ],
+      "35-44": [
+        "Golf clubs",
+        "Fitness equipment",
+        "Home theater system",
+        "Weekend bag",
+        "Grilling set"
+      ],
+      "45-54": [
+        "Travel luggage",
+        "E-reader",
+        "Smartphone projector",
+        "Leather duffel bag",
+        "Portable grill"
+      ],
+      "55-64": [
+        "Golf clubs",
+        "Smartphone for seniors",
+        "Noise-cancelling headphones",
+        "Leather briefcase",
+        "Electric grill"
+      ],
+      "65-74": [
+        "Personalized leather portfolio",
+        "Engraved fountain pen",
+        "Vintage watch",
+        "Travel luggage set",
+        "Fine wine collection"
+      ],
+      "75+": [
+        "Customized diploma frame",
+        "Collector's edition book set",
+        "Luxury fountain pen",
+        "Golf vacation package",
+        "Engraved pocket watch"
+      ]
+    }
+  },
+  {
+    "occasion": "Graduation",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": [
+        "Art Set",
+        "Books",
+        "Wireless headphones",
+        "Smartphone tripod",
+        "Fitness tracker"
+      ],
+      "18-24": [
+        "Smartphone Camera Lens Kit",
+        "Portable Bluetooth speaker",
+        "Fitness subscription",
+        "Smartwatch",
+        "Jewelry"
+      ],
+      "25-34": [
+        "Jewelry",
+        "Luxury handbag",
+        "Fitness equipment",
+        "E-Reader",
+        "Smart home device"
+      ],
+      "35-44": [
+        "Spa Gift Basket",
+        "Personalized photo book",
+        "Smart home device",
+        "Robot vacuum",
+        "Gourmet food basket"
+      ],
+      "45-54": [
+        "Gardening Tools Set",
+        "Luxury bathrobe",
+        "Wine subscription",
+        "Smartphone projector",
+        "Digital photo frame"
+      ],
+      "55-64": [
+        "E-Reader",
+        "Smartphone printer",
+        "Yoga subscription",
+        "Smart home device",
+        "Memory foam slippers"
+      ],
+      "65-74": [
+        "Personalized leather tote bag",
+        "Engraved necklace",
+        "Spa gift certificate",
+        "Art class enrollment",
+        "Elegant pearl earrings"
+      ],
+      "75+": [
+        "Customized photo album",
+        "Luxury spa retreat",
+        "Engraved charm bracelet",
+        "Wine tasting tour",
+        "Antique collectible item"
+      ]
+    }
+  },
+
+  {
+    "occasion": "Wedding",
+    "gender": "Male",
+    "ageRanges": {
+      "Under 18": [
+        "Comic book or graphic novel",
+        "Video game console",
+        "Smartwatch",
+        "Headphones",
+        "Action camera"
+      ],
+      "18-24": [
+        "Personalized cufflinks",
+        "Tailored suit or blazer",
+        "Smartphone",
+        "Wireless earbuds",
+        "Weekend getaway package"
+      ],
+      "25-34": [
+        "Coffee maker or espresso machine",
+        "Professional grooming kit",
+        "Smart home assistant",
+        "Fitness tracker or smartwatch",
+        "High-end home theater system"
+      ],
+      "35-44": [
+        "High-quality leather wallet",
+        "Designer watch",
+        "Smart luggage or travel accessories",
+        "Smart home security system",
+        "Fine wine or whiskey collection"
+      ],
+      "45-54": [
+        "Tool set or power tools",
+        "Classic car restoration project",
+        "Luxury timepiece",
+        "Custom-built outdoor kitchen or grill",
+        "Private golf club membership"
+      ],
+      "55-64": [
+        "Golf clubs or golf lessons",
+        "Private yacht or sailing lessons",
+        "Luxury vacation package",
+        "Vintage wine or whiskey collection",
+        "Art collection or investment"
+      ],
+      "65-74": [
+        "Personalized leather briefcase",
+        "Engraved watch",
+        "Gourmet cooking set",
+        "Luxury golf clubs",
+        "Customized monogrammed cufflinks"
+      ],
+      "75+": [
+        "Classic pocket watch",
+        "Fine whiskey or wine set",
+        "Vintage vinyl record player",
+        "Artisan leather journal",
+        "Gourmet food and wine basket"
+      ]
+    }
+  },
+  {
+    "occasion": "Wedding",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": [
+        "Jewelry box",
+        "Beauty kit",
+        "Photo album",
+        "Personalized jewelry",
+        "Instant camera"
+      ],
+      "18-24": [
+        "Personalized champagne flutes",
+        "Designer perfume",
+        "Silk robe",
+        "Jewelry set",
+        "Professional makeup kit"
+      ],
+      "25-34": [
+        "Luxury bedding set",
+        "Smart home device",
+        "Designer purse",
+        "Fine jewelry",
+        "Fitness tracker"
+      ],
+      "35-44": [
+        "Designer handbag",
+        "Luxury spa day",
+        "Designer watch",
+        "Fine wine or champagne",
+        "Cooking class"
+      ],
+      "45-54": [
+        "Gold or diamond jewelry",
+        "Designer sunglasses",
+        "Luxury skincare set",
+        "Designer shoes",
+        "Smartphone or tablet"
+      ],
+      "55-64": [
+        "Cookware set or kitchen appliances",
+        "Luxury hand cream set",
+        "Gourmet food basket",
+        "Travel luggage set",
+        "Subscription to a magazine or book club"
+      ],
+      "65-74": [
+        "Elegant jewelry set",
+        "Personalized champagne flutes",
+        "Luxury spa getaway",
+        "Engraved photo frame",
+        "Designer handbag"
+      ],
+      "75+": [
+        "Artwork or painting",
+        "Exquisite fine dining experience",
+        "Personalized keepsake box",
+        "Luxury silk robe",
+        "Vintage-inspired tea set"
+      ]
+    }
+  },
+
+  {
+    "occasion": "Christmas",
+    "gender": "Male",
+    "ageRanges": {
+      "Under 18": [
+        "Remote Control Car",
+        "Lego set",
+        "Basketball hoop",
+        "Virtual reality headset",
+        "Action figures or figurines"
+      ],
+      "18-24": [
+        "Gaming Console",
+        "Noise-canceling headphones",
+        "Smartphone camera lens kit",
+        "Gaming keyboard",
+        "Fitness tracker"
+      ],
+      "25-34": [
+        "Smartwatch",
+        "Wireless charging pad",
+        "Drone",
+        "Smart home assistant",
+        "Digital photo frame"
+      ],
+      "35-44": [
+        "Wireless Earbuds",
+        "Smart thermostat",
+        "Grilling tools set",
+        "Fitness equipment",
+        "Portable power bank"
+      ],
+      "45-54": [
+        "Leather Wallet",
+        "Electric razor",
+        "Smartphone sanitizer",
+        "Personalized whiskey glasses",
+        "Portable projector"
+      ],
+      "55-64": [
+        "Golf clubs or golf lessons",
+        "Smart home device",
+        "Travel luggage set",
+        "Leather briefcase",
+        "Subscription to a magazine or book club"
+      ],
+      "65-74": [
+        "Classic leather jacket",
+        "High-quality shaving set",
+        "Bluetooth speaker system",
+        "Antique pocket watch",
+        "Craft beer brewing kit"
+      ],
+      "75+": [
+        "Cozy cashmere sweater",
+        "Premium cigar sampler",
+        "Vintage vinyl record player",
+        "Luxury writing pen set",
+        "Gourmet coffee subscription"
+      ]
+    }
+  },
+  {
+    "occasion": "Christmas",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": [
+        "Art Set",
+        "Jewelry making kit",
+        "DIY slime kit",
+        "Puzzle set",
+        "Craft supplies subscription"
+      ],
+      "18-24": [
+        "Fitness Tracker",
+        "Yoga mat and accessories",
+        "Wireless earbuds",
+        "Smartphone tripod",
+        "Personalized planner"
+      ],
+      "25-34": [
+        "E-Reader",
+        "Robot vacuum cleaner",
+        "Wireless headphones",
+        "Smartphone projector",
+        "Portable photo printer"
+      ],
+      "35-44": [
+        "Instant Pot",
+        "Smart scale",
+        "Indoor herb garden kit",
+        "Smart water bottle",
+        "Air purifier"
+      ],
+      "45-54": [
+        "Gold or diamond jewelry",
+        "Luxury hand cream set",
+        "Designer scarf",
+        "Personalized photo album",
+        "Cookware set or kitchen appliances"
+      ],
+      "55-64": [
+        "Tea set",
+        "Luxury bathrobe",
+        "Gourmet food basket",
+        "Personalized stationary set",
+        "Subscription to a streaming service"
+      ],
+      "65-74": [
+        "Cashmere scarf and glove set",
+        "Spa gift basket",
+        "Elegant pearl necklace",
+        "Cozy fleece-lined slippers",
+        "Gourmet chocolate assortment"
+      ],
+      "75+": [
+        "Personalized photo blanket",
+        "Luxurious silk pajama set",
+        "Delicate crystal vase",
+        "Digital e-reader device",
+        "Tea sampler gift box"
+      ]
+    }
+  },
+
+  {
+    "occasion": "Valentine's Day",
+    "gender": "Male",
+    "ageRanges": {
+      "Under 18": [
+        "Video game",
+        "Wireless earbuds",
+        "Graphic novel set",
+        "Virtual reality headset",
+        "Sneaker cleaning kit"
+      ],
+      "18-24": [
+        "Grooming kit",
+        "Wireless earbuds",
+        "Subscription to a music streaming service",
+        "Fashionable sneakers",
+        "Personalized pocket watch"
+      ],
+      "25-34": [
+        "Smartwatch",
+        "Wireless charging pad",
+        "Beer brewing kit",
+        "Personalized leather journal",
+        "Tech gadget organizer"
+      ],
+      "35-44": [
+        "Leather wallet",
+        "Smart home assistant",
+        "Gourmet food basket",
+        "Personalized leather travel bag",
+        "Luxury shaving kit"
+      ],
+      "45-54": [
+        "Bluetooth speaker",
+        "Leather messenger bag",
+        "Grilling accessories set",
+        "Craft beer subscription",
+        "Outdoor adventure book"
+      ],
+      "55-64": [
+        "Pocket knife",
+        "Leather wallet",
+        "Classic vinyl records",
+        "Customized whiskey decanter",
+        "Saddle leather briefcase"
+      ],
+      "65-74": [
+        "Personalized leather wallet",
+        "Engraved watch",
+        "Gourmet gift basket with fine wines and cheeses",
+        "Tech gadget or smart home device",
+        "Golf or fishing equipment"
+      ],
+      "75+": [
+        "Classic fountain pen set",
+        "Personalized photo frame with a memorable picture",
+        "Gourmet coffee or tea gift set",
+        "Relaxing massage chair",
+        "Collectible item or memorabilia"
+      ]
+    }
+  },
+  {
+    "occasion": "Valentine's Day",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": [
+        "Art supplies",
+        "DIY slime kit",
+        "Bluetooth headphones",
+        "Polaroid camera",
+        "Subscription to a creative writing program"
+      ],
+      "18-24": [
+        "Jewelry",
+        "Designer handbag",
+        "Spa gift set",
+        "Personalized photo album",
+        "Elegant scarf"
+      ],
+      "25-34": [
+        "Perfume",
+        "Designer sunglasses",
+        "Fitness tracker",
+        "Personalized recipe book",
+        "Luxury scented candles"
+      ],
+      "35-44": [
+        "Chocolates and flowers",
+        "Personalized jewelry box",
+        "Fashionable tote bag",
+        "Designer scarf",
+        "Luxury skincare set"
+      ],
+      "45-54": [
+        "Personalized photo frame",
+        "Luxury candles",
+        "Spa day gift certificate",
+        "Gourmet food basket",
+        "Designer handbag"
+      ],
+      "55-64": [
+        "Handwritten love letter",
+        "Vintage jewelry",
+        "Luxury silk scarf",
+        "Gourmet tea set",
+        "Personalized family tree print"
+      ],
+      "65-74": [
+        "Bouquet of roses and chocolates",
+        "Scented candles and bath salts gift set",
+        "Personalized jewelry with birthstones",
+        "Spa day experience",
+        "Wine tasting tour"
+      ],
+      "75+": [
+        "Customized photo calendar with family pictures",
+        "Handwritten love letters in a keepsake box",
+        "Luxury perfume set",
+        "Cooking class for two",
+        "Gourmet chocolate fondue set"
+      ]
+    }
+  },
+
+  {
+    "occasion": "Mother's Day",
+    "gender": "Male",
+    "ageRanges": {
+      "Under 18": ["Nothing! As this is MOTHER's day"],
+      "18-24": ["Nothing! As this is MOTHER's day"],
+      "25-34": ["Nothing! As this is MOTHER's day"],
+      "35-44": ["Nothing! As this is MOTHER's day"],
+      "45-54": ["Nothing! As this is MOTHER's day"],
+      "55-64": ["Nothing! As this is MOTHER's day"],
+      "65-74": ["Nothing! As this is MOTHER's day"],
+      "75+": ["Nothing! As this is MOTHER's day"]
+    }
+  },
+  {
+    "occasion": "Mother's Day",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": [
+        "DIY craft kit",
+        "Bath bombs and salts set",
+        "Personalized photo mug",
+        "Customized phone case",
+        "Gourmet chocolate box"
+      ],
+      "18-24": [
+        "High-quality makeup set",
+        "Fitness tracker",
+        "Self-care book bundle",
+        "Elegant tea set",
+        "Cooking class voucher"
+      ],
+      "25-34": [
+        "Professional-grade blender",
+        "Digital picture frame",
+        "Personalized jewelry",
+        "Smart home device",
+        "Designer handbag"
+      ],
+      "35-44": [
+        "Luxury bathrobe",
+        "Customized canvas print",
+        "Gardening tool set",
+        "Wine tasting experience",
+        "Designer perfume"
+      ],
+      "45-54": [
+        "Smartphone camera lens kit",
+        "Customized photo book",
+        "High-quality headphones",
+        "Professional-grade camera",
+        "Leather tote bag"
+      ],
+      "55-64": [
+        "Luxury bedding set",
+        "Smart home assistant",
+        "Luxury bath towel set",
+        "Customized family portrait",
+        "Personalized travel journal"
+      ],
+      "65-74": [
+        "Spa day experience",
+        "Jewelry box",
+        "Family scrapbook",
+        "Kitchen gadget",
+        "Subscription to favorite magazine"
+      ],
+      "75+": [
+        "Flower bouquet delivery subscription",
+        "Relaxing bath set with bath bombs and essential oils",
+        "Personalized family tree artwork",
+        "Craft supplies for a hobby",
+        "Customized letter writing service"
+      ]
+    }
+  },
+
+  {
+    "occasion": "Father's Day",
+    "gender": "Male",
+    "ageRanges": {
+      "18-24": [
+        "Headphones",
+        "Personalized photo book",
+        "Grooming kit",
+        "Backpack",
+        "Smartphone camera lens kit"
+      ],
+      "25-34": [
+        "Smart speaker",
+        "Wireless charging pad",
+        "Portable power bank",
+        "Stainless steel water bottle",
+        "Pocket projector"
+      ],
+      "35-44": [
+        "Barbecue tool set",
+        "Wireless earbuds",
+        "Travel luggage",
+        "Coffee maker",
+        "Electric razor"
+      ],
+      "45-54": [
+        "Smartwatch",
+        "High-end noise-cancelling headphones",
+        "Virtual reality headset",
+        "Drone",
+        "Smart home device bundle"
+      ],
+      "55-64": [
+        "Leather recliner",
+        "Power tool set",
+        "Vintage record player",
+        "Whiskey decanter set",
+        "Customized golf balls"
+      ],
+
+      "Under 18": [
+        "Remote control car",
+        "Smartphone camera lens kit",
+        "Smartwatch",
+        "Gaming headset",
+        "Sports equipment"
+      ],
+      "65-74": [
+        "Golf equipment",
+        "Personalized engraved watch",
+        "Outdoor grill",
+        "Fishing gear",
+        "Favorite liquor tasting experience"
+      ],
+      "75+": [
+        "Classic vinyl records",
+        "Woodworking tool set",
+        "Gourmet food and snack basket",
+        "Personalized photo blanket",
+        "Gardening tools"
+      ]
+    }
+  },
+  {
+    "occasion": "Father's Day",
+    "gender": "Female",
+    "ageRanges": {
+      "Under 18": ["Nothing! As this is Father's Day"],
+      "18-24": ["Nothing! As this is Father's Day"],
+      "25-34": ["Nothing! As this is Father's Day"],
+      "35-44": ["Nothing! As this is Father's Day"],
+      "45-54": ["Nothing! As this is Father's Day"],
+      "55-64": ["Nothing! As this is Father's Day"],
+      "65-74": ["Nothing! As this is Father's Day"],
+      "75+": ["Nothing! As this is Father's Day"]
+    }
+  }
+]

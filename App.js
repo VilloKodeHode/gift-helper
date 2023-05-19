@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { View, Text, Pressable, ScrollView, Linking } from "react-native";
-import gifts from "./data/gifts";
+// import gifts from "./data/gifts";
 import questions from "./data/questions";
 import { styles } from "./data/styles";
+const gifts = require("./data/gifts.json");
+
 
 const App = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -54,7 +56,7 @@ const App = () => {
                   <Text style={styles.giftSuggestionText}>{gift}</Text>
                   {gift.indexOf("Nothing") === -1 && (
                     <Pressable
-                      key={gift + " searchButton"}
+                      key={gift + ageRange + " searchButton"}
                       style={styles.searchButton}
                       onPress={() =>
                         openSearchResults(gift, occasion, gender, ageRange)
@@ -95,16 +97,20 @@ const App = () => {
           <View style={styles.buttonGrid}>
             {currentQuestion.options.map((option) => (
               //renders the question options as buttons:
-              <Pressable
-                style={styles.button}
-                key={option.id}
-                onPress={() => handleAnswer(currentQuestion.id, option.id)}
-              >
-                <Text style={styles.icon}>{option.icon}</Text>
-                <Text style={styles.buttonText}>
-                  {option.text} {"\n"}
-                </Text>
-              </Pressable>
+              <>
+                <View>
+                  <Text style={styles.icon}>{option.icon}</Text>
+                  <Pressable
+                    style={styles.button}
+                    key={option.id}
+                    onPress={() => handleAnswer(currentQuestion.id, option.id)}
+                  >
+                    <Text style={styles.buttonText}>
+                      {option.text} {"\n"}
+                    </Text>
+                  </Pressable>
+                </View>
+              </>
             ))}
           </View>
         </>
