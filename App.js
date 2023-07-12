@@ -4,7 +4,12 @@ import { View, Text, Pressable, ScrollView, Linking } from "react-native";
 import questions from "./data/questions";
 import { styles } from "./data/styles";
 const gifts = require("./data/gifts.json");
+import { NativeWindStyleSheet } from "nativewind";
+import { PrimaryButton } from "./components/Buttons";
 
+NativeWindStyleSheet.setOutput({
+  default: "native",
+});
 
 const App = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -87,28 +92,54 @@ const App = () => {
     <View style={styles.container}>
       {/* only renders on the start screen: */}
       {currentQuestionIndex === 0 ? (
-        <Text style={styles.titleText}>Gift Finder</Text>
+        <Text style={styles.titleText} className="text-h2">
+          Gift Finder
+        </Text>
       ) : null}
       {/* renders when not all questions is anwered: */}
       {currentQuestion && (
         <>
           <Text style={styles.questionText}>{currentQuestion.text}</Text>
-
-          <View style={styles.buttonGrid}>
+          {currentQuestionIndex !== 0 && currentQuestionIndex !== 3 ? (
+            <View style={styles.guideContainer} className="w-[80%]">
+              <Text style={styles.guideText} className="w-fit">
+                Occasion:{" "}
+                {questions[0]?.options[answers[questions[0].id] - 1]?.text}
+              </Text>
+              <Text style={styles.guideText} className="w-fit">
+                Gender:{" "}
+                {questions[1].options[answers[questions[1].id] - 1]?.text}
+              </Text>
+              {/* <Text style={styles.guideText} className="w-fit">
+                Age: {questions[2]?.options[answers[questions[2].id] - 1]?.text}{" "}
+              </Text> */}
+            </View>
+          ) : null}
+          <View style={styles.buttonGrid} className="my-12">
             {currentQuestion.options.map((option) => (
               //renders the question options as buttons:
               <>
-                <View>
-                  <Text style={styles.icon}>{option.icon}</Text>
-                  <Pressable
-                    style={styles.button}
-                    key={option.id}
-                    onPress={() => handleAnswer(currentQuestion.id, option.id)}
-                  >
-                    <Text style={styles.buttonText}>
-                      {option.text} {"\n"}
-                    </Text>
-                  </Pressable>
+                <View className="relative">
+                  <Text style={styles.icon} className="text-[30px] absolute">
+                    {/* {option.icon} */}
+                  </Text>
+                  <View className="">
+                    <Pressable
+                      // style={styles.button}
+                      className="flex justify-center h-16 m-2 border-b-4 rounded-3xl border-b-JWC-black50 active:border-b-0 w-44 bg-JWC-secondary"
+                      key={option.id}
+                      onPress={() =>
+                        handleAnswer(currentQuestion.id, option.id)
+                      }
+                    >
+                      <Text
+                        // style={styles.buttonText}
+                        className="p-2 text-center text-h5 text-JWC-white"
+                      >
+                        {option.text}
+                      </Text>
+                    </Pressable>
+                  </View>
                 </View>
               </>
             ))}
@@ -129,14 +160,36 @@ const App = () => {
                   {questions[2].options[answers[questions[2].id] - 1].text} old{" "}
                   {questions[1].options[answers[questions[1].id] - 1].text}, who
                   is celebrating{" "}
-                  {questions[0].options[answers[questions[0].id] - 1].text}:
+                  {questions[0].options[answers[questions[0].id] - 1].text ===
+                    "Birthday" ||
+                  questions[0].options[answers[questions[0].id] - 1].text ===
+                    "Graduation" ||
+                  questions[0].options[answers[questions[0].id] - 1].text ===
+                    "Wedding" ? (
+                    <React.Fragment>
+                      {questions[0].options[answers[questions[0].id] - 1]
+                        .text === "male"
+                        ? "his"
+                        : "her"}{" "}
+                      {questions[0].options[answers[questions[0].id] - 1].text}:
+                    </React.Fragment>
+                  ) : (
+                    questions[0].options[answers[questions[0].id] - 1].text +
+                    ":"
+                  )}
                 </Text>
                 {/* renders all gifts that are recommended according to the question answered: */}
                 {getGiftSuggestion()}
                 {/* resets questions answered and goes back to the start: */}
-                <Pressable style={styles.resetButton} onPress={resetQuiz}>
+                <Pressable
+                  className="flex justify-center h-16 m-2 border-b-4 rounded-3xl border-b-JWC-black50 active:border-b-0 w-44 bg-JWC-secondary"
+                  onPress={resetQuiz}
+                >
                   <Text style={styles.resetButtonText}>Reset</Text>
                 </Pressable>
+                <PrimaryButton onPress={resetQuiz}>
+                  <Text style={styles.resetButtonText}>Reset</Text>
+                </PrimaryButton>
               </View>
             </ScrollView>
           </>
